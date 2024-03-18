@@ -1,20 +1,36 @@
 .App{
-    position: relative;
-    overflow-x: clip;
+    position: absolute;
+    top: 0;
+    min-height: 250px;
+    width: 100%;
+    background: var(--blue);
+    z-index: -1;
 }
 
-.App>:nth-child(1){
-    background: var(--blue);
-   
-}
-.njareb{
+
+.Siderbar{
     background-color: white;
     padding: 100px;
-    position:absolute;
-    top: 10vh;
-    min-height:90vh;
+    position:relative;
+    
+    min-height:120vh;
     width: 250px;
+    border: 2px solid black;
 }
+.Table{
+    border: 2px solid blue;
+    position: relative;
+    left: 300px;
+    top: -90px;
+    width: 1000px;
+    text-align: center;
+    background-color: hsl(0, 0%, 95%);
+    min-height: 60vh;
+    border-radius: 10px;
+    
+    
+}
+ 
 @media (max-height:550px) {
     .njareb{
         top: 15vh;

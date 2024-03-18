@@ -5,10 +5,9 @@
     padding-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
-    min-height: 300px;
-     
-    
-    
+    margin-bottom: 10px;
+    width: 100%;
+
 }
 .icon-container{
     font-size: 30px;
@@ -21,6 +20,4 @@
  
 .Logo{
     font-size: 30px;
-  
-    
 }
