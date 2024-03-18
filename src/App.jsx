@@ -10,6 +10,7 @@ function App() {
       <div className="njareb">
         <NavBar />
       </div>
+      <div></div>
     </>
   );
 }
