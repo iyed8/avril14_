@@ -1,0 +1,26 @@
+
+.h-wrapper{
+    justify-content: space-between;
+    align-items:baseline;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-height: 300px;
+     
+    
+    
+}
+.icon-container{
+    font-size: 30px;
+    color: white;
+}   
+.icon-container>:nth-child(1){
+    margin-right: 7px;
+     
+}
+ 
+.Logo{
+    font-size: 30px;
+  
+    
+}
